@@ -46,3 +46,63 @@
   gap: 10px;
   color: white;
 }
+
+/* note section */
+.note-container{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.note-card{
+  display: flex;
+  gap: 10px;
+
+}
+.card{
+  border: 1px solid ;
+  text-align: center;
+  padding: 10px;
+}
+.card img{
+  background-color: #F95555;
+  border-radius: 100%;
+}
+
+/* brain section */
+.brain-section{
+  max-width: 1140px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.brain-section img{
+  width: 500px;
+  height: 500px;
+}
+
+/* early-access */
+.early-access{
+  max-width: 1140px;
+  margin: 100px auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 20px;
+}
+
+/* footer */
+.footer{
+  background-color: #001931;
+}
+.footer-container{
+color: white;
+  margin-top: 100px ;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-paragraph{
+  color: white;
+  text-align: center;
+}
