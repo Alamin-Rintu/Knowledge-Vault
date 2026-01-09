@@ -1,6 +1,27 @@
 .nav-bar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+.btn-primary{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #469165;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+.btn-secondery{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
 }
 .nav-bar img{
     width: 100%;
@@ -44,7 +65,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  color: white;
+  align-items: center;
 }
 
 /* note section */
@@ -58,15 +79,38 @@
   gap: 10px;
 
 }
-.card{
-  border: 1px solid ;
+ .card {
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
   text-align: center;
-  padding: 10px;
+  border: 1px solid rgb(189, 186, 186);
 }
-.card img{
+
+.card img {
+  width: 40px;
+  margin-bottom: 8px;
   background-color: #F95555;
   border-radius: 100%;
 }
+.card h5{
+  color:#001931 ;
+  font-size: 24px;
+  font-weight:600;
+  margin: 6px 0;
+}
+
+.card p{
+  color: #627382;
+  font-size: 16px;
+  margin: 4px 0 0; 
+}
+.note-heading{
+  margin-bottom: 10px;
+}
+
+
 
 /* brain section */
 .brain-section{
@@ -82,7 +126,26 @@
   width: 500px;
   height: 500px;
 }
-
+.brain-p{
+  font-size: 15px;
+  color: #469165;
+  margin-bottom: 4px;
+}
+.brain-heading{
+  font-size: 45px;
+  font-weight: bold;
+  color: #001931;
+   margin-top: 0; 
+   margin-bottom: 12px;
+}
+.brain-description{
+  font-size: 15px;
+  color: #627382;
+}
+.brain-option{
+  font-size: 16px;
+  font-weight: 500;
+}
 /* early-access */
 .early-access{
   max-width: 1140px;
@@ -91,16 +154,40 @@
   background-color: #F7F6F2;
   padding: 20px;
 }
+.early-access-h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+.early-acces-p{
+   font-size: 15px;
+  color: #627382;
+}
+.early-acces-btn{
+   display: inline-flex;;
+  align-items: center;
+  gap: 5px;
+  background-color: #469165;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
 
 /* footer */
 .footer{
   background-color: #001931;
+  padding: 60px 0 20px;
 }
 .footer-container{
-color: white;
-  margin-top: 100px ;
+  color: white;
+  margin: 0 auto 30px; 
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.social-p{
+  font-size: 20px;
+  font-weight: 500;
 }
 .footer-paragraph{
   color: white;
